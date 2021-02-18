@@ -1,0 +1,10 @@
+{
+    "application": {
+    "port": "app_port"
+},
+"dbConfig":{
+    "port":"db_port",
+    "password":"db_password",
+    "url":"mongodb+srv://Peter:1010@testcluster1.afazs.mongodb.net/adminstration?retryWrites=true&w=majority"
+}
+}
