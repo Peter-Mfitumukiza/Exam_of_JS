@@ -11,6 +11,6 @@ app.use(bodyParser.json());
 app.use("/provinces",provinceController);
 app.use("/districts",districtControler);
 
-
-
-app.listen(3000);
+app.listen(3000,()=>{
+    res.send("Running");
+});
